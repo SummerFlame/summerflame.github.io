@@ -8,7 +8,7 @@ $(function () {
     var $carousels = $('.carousel');
     var startX, endX;
     // 在滑动的一定范围内，才切换图片
-    var offset = 25;
+    var offset = 50;
     // 注册滑动事件
     $carousels.on('touchstart', function (e) {
         // console.log(e);
