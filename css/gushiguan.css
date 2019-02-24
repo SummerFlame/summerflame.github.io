@@ -1,0 +1,76 @@
+/*故事馆css文件*/
+
+/*body底色*/
+body {
+    background-color: rgb(242, 242, 243);
+}
+
+/*轮播图删除最外边框*/
+#lunBoKuang {
+    padding: 0em;
+}
+
+/* Make the image fully responsive */
+#shouYeLunBo .carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+/*轮播图文字加透明背景*/
+#shouYeLunBo .carousel-item h3 {
+    /*background-color: rgba(0, 0, 0, 0.2);*/
+}
+
+#shouYeLunBo .carousel-item p {
+}
+
+#shouYeLunBo .carousel-item mark {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+/*调整浏览内容标题上下宽度*/
+
+
+#liuLanNeiRong .row > div p {
+    margin-top: 0.8em;
+}
+
+#liuLanNeiRong img {
+    margin: 0.8em 0;
+}
+
+/*调整往期内容框颜色*/
+#liuLanNeiRong .row .col-sm-4 {
+    background-color: white;
+}
+
+/*调整往期内容标题字体*/
+#liuLanNeiRong .row .col-sm-4 .row p {
+    font-weight: lighter;
+    font-size: 85%;
+}
+
+/*往期内容时间戳在最右边*/
+#liuLanNeiRong .row .col-sm-4 .row footer {
+    text-align: end;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*内容页css*/
+/*布艺人生*/
+#buYiWenZhang {
+    background-color: white;
+}
+
+#buYiWenZhang h5 {
+    margin: 2em 0 1em 0;
+}
+
+
+#buYiWenZhang iframe {
+    width: 100%;
+    height: 25em;
+}
